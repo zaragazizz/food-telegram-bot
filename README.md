@@ -12,7 +12,7 @@ import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = os.getenv('TELEGRAM_TOKEN')  # Токен из переменных окружения
+TOKEN = os.getenv('7709158688:AAF49XGt3tmshSULAESNcQaU4twgNi41RIs')  
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("👋 Привет! Я помогу тебе следить за питанием!")
